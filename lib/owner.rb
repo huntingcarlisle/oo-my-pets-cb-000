@@ -40,5 +40,9 @@ class Owner
     new_pet = Dog.new(dog_name)
     @pets[:dogs] << new_pet
   end
+  
+  def walk_dogs
+    @pets[:dogs].each{|dog| dog.mood = "happy"}
+  end
     
 end
