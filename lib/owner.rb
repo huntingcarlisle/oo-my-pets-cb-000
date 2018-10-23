@@ -26,6 +26,8 @@ class Owner
     return "I am a #{@species}."
   end
   
-  
+  def buy_fish(fish_name)
+    
+  end
     
 end
